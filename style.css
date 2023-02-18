@@ -1,3 +1,15 @@
 body {
-    background: blue;
+    background: yellow;
+}
+p {
+    font-size: 26px;
+}
+p {
+    color: blue;
+}
+li {
+    font-size: 24px;
+}
+li {
+    color:red
 }

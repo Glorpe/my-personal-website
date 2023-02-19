@@ -5,6 +5,12 @@
         <title>Javascript,
             add event listener "click"
             to dynamically created li</title>
+            <style>
+                .box{
+                    color: red;
+                }
+
+            </style>
     </head>
   </body>    
     
@@ -24,5 +30,15 @@
             <li>I want to be able to refine my coding skills to be better than ever through flatironschool!</li>
           
           </ul>
+          <div class="box">
+            Click Me!
+        </div>
+        <button onclick="changeColor('Green')">Green</button>
+        <button onclick="changeColor('Blue')">Blue</button>
+        <script>
+            function changeColor(color){
+                document.querySelector('.box').style.color = color;
+            }
+        </script>
     </body>
 </html>
